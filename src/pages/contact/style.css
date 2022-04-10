@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Baloo Chettan 2", cursive;
+  line-height: 1.5;
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fvector%2Fcoffee-icon-wallpaper-gm579761386-99717807&psig=AOvVaw2UF6Lv447wWi34fBLUsvpm&ust=1639450946136000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLjjjOzk3_QCFQAAAAAdAAAAABAD");
+}
+.bar {
+  background-color: #e37c1c;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 5rem;
+  padding: 2rem 0;
+  box-shadow: 0 0 20px #000000b3;
+}
+
+.input input,
+textarea {
+  border: none;
+  border-radius: 0.25rem;
+  height: 2rem;
+  border: 2px solid rgb(201, 200, 200);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  width: 100%;
+  margin: auto;
+}
+.input textarea {
+  height: auto;
+}
+.input input:focus {
+  border-color: black;
+}
+.btn {
+  margin-top: 1rem;
+  height: 2rem;
+  background-color: #fa8b23;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+.btn:hover {
+  background-color: #cf6a0c;
+  color: white;
+}
+@media screen and (min-width: 776px) {
+  .container {
+    width: 20%;
+  }
+}
